@@ -133,3 +133,30 @@ h1,p,h2
     margin-bottom: 10px;
     
 }
+@media only screen and (max-width: 560px) {
+    body {
+        width: 560px;
+    };
+    
+    .components
+    {
+        display:grid;
+        grid-gap: 0px;
+        grid-template-columns: 200px auto;
+        grid-template-areas:"aside content";
+                             
+    }
+    .components__list
+{
+    width:280px;
+    
+    
+}
+.components__list ul
+{
+    display:flex;
+    flex-direction: column;
+    position:static;
+    left:10px;
+}
+}
