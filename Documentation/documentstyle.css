@@ -10,7 +10,7 @@ h1,p,h2
 {
     margin:0;
 }
-.mandik
+.embellish
 {
     background-color: black;
     width:150px;
@@ -18,33 +18,6 @@ h1,p,h2
     text-align: center;
     border-radius: 8px;
 }
-
-.header
-{
-    background-color: black;
-    color:white;
-    padding:20px;
-    text-align: center;
-    
-    
-}
-.header h1{
-    font-size: 2rem;
-}
-.header span
-{
-    background-color: #D1D5DB;
-    color:black;
-    padding: 10px;
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-.header p 
-{
-    margin-top:20px;
-    margin-bottom: 10px;
-}
-
 .components
 {
     display:grid;
